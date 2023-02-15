@@ -60,18 +60,36 @@ body {
     width: 150px;
     box-shadow: blueviolet;
 }
-@keyframes animacion{
-    0%{box-shadow: 0 0 40px blueviolet;}
-    25%{box-shadow: 0 0 60px blueviolet;}
-    50%{box-shadow: 0 0 100px blueviolet;}
-    75%{box-shadow: 0 0 60px blueviolet;}
-    100%{box-shadow: 0 0 40px blueviolet;}
+
+@keyframes animacion {
+    0% {
+        box-shadow: 0 0 40px blueviolet;
+    }
+
+    25% {
+        box-shadow: 0 0 60px blueviolet;
+    }
+
+    50% {
+        box-shadow: 0 0 100px blueviolet;
+    }
+
+    75% {
+        box-shadow: 0 0 60px blueviolet;
+    }
+
+    100% {
+        box-shadow: 0 0 40px blueviolet;
+    }
 }
-.imagenpie{animation-name: animacion;
-animation-iteration-count: infinite;
-animation-delay: 1s;
-animation-timing-function: ease-in;
-animation-duration: 3s;}
+
+.imagenpie {
+    animation-name: animacion;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-duration: 3s;
+}
 
 
 .pie-pagina .grupo1 .box h3 {
@@ -149,12 +167,12 @@ animation-duration: 3s;}
     box-sizing: border-box;
     margin-top: 30px;
     border-radius: 7px;
-  
+
 }
 
 .formulariocontacto input,
 textarea {
-    
+
     width: 100%;
     margin-bottom: 20px;
     padding: 7px;
@@ -163,38 +181,55 @@ textarea {
     font-family: 'Lobster', cursive;
     border: none;
 }
-.formulariocontacto textarea{
+
+.formulariocontacto textarea {
     min-height: 100px;
     max-height: 300px;
     max-width: 100%;
 }
 
-.formulariocontacto .boton{background: #00ff11;
-padding: 20px;
+.formulariocontacto .boton {
+    background: #00ff11;
+    padding: 20px;
 }
-
-
 
 @media(max-width: 480px) {
-    .formulariocontacto{width: 100%;}
+    .formulariocontacto {
+        width: 100%;
+    }
 }
-
 
 /* cv.html */
 
-.formulariocv{text-decoration: none; 
+.formulariocv {
+    text-decoration: none;
     background-color: rgba(121, 2, 89, 0.685);
     display: inline-table;
-    margin-bottom: 20px;margin-top: 10px;
-    font-size: 18px;font-family: 'Lobster', cursive;
-    margin-left: 500px;}
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    margin-left: 500px;
+}
 
 /* proyectos anteriores */
+.columna{
+    text-decoration: none;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Lobster', cursive;
+   box-sizing: border-box;
+   padding: 5%;
+}
+.columna img {width: 250px;}
 
 
 /* quienes somos */
-
-
-
-
-
+.parrafonosotros {
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+}
