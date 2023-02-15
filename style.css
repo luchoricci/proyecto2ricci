@@ -180,33 +180,21 @@ padding: 20px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* cv.html */
 
-
-
-
-
-
-
+.formulariocv{text-decoration: none; 
+    background-color: rgba(121, 2, 89, 0.685);
+    display: inline-table;
+    margin-bottom: 20px;margin-top: 10px;
+    font-size: 18px;font-family: 'Lobster', cursive;
+    margin-left: 500px;}
 
 /* proyectos anteriores */
 
 
-
-
-
-
-
-
 /* quienes somos */
+
+
+
+
+
