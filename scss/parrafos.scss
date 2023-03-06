@@ -1,5 +1,5 @@
-
-@mixin parrafos{text-decoration: none;
+@mixin parrafos {
+	text-decoration: none;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	font-size: 18px;
@@ -9,4 +9,6 @@
 	text-align: center;
 }
 
-	p{@include parrafos;}
+p {
+	@include parrafos;
+}
