@@ -1,0 +1,33 @@
+@media (max-width: 480px) {
+    .formulariocontacto {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulariocv {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .pie-pagina {
+        .grupo1 {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .formulariocv {
+        .formp {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 30px;
+            padding: 30px;
+        }
+    }
+}

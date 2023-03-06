@@ -1,0 +1,12 @@
+
+@mixin parrafos{text-decoration: none;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-family: $font-family_1;
+	text-align: justify;
+	width: 95%;
+	text-align: center;
+}
+
+	p{@include parrafos;}

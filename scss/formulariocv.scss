@@ -1,0 +1,62 @@
+.formulariocv {
+	
+	font-family: $font-family_1;
+	background-color: $background-color_5;
+	width: 100%;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	border-radius: 7px;
+	input {
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 7px;
+		box-sizing: border-box;
+		font-size: 18px;
+		font-family: $font-family_1;
+		border: none;
+	}
+	textarea {
+		min-height: 100px;
+		max-height: 300px;
+		max-width: 100%;
+	}
+	.boton {
+		background: #00ff11;
+		padding: 20px;
+	}
+}
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: $font-family_1;
+	border: none;
+}
+.formulariocv {
+	width: 100%;
+	background-color: $background-color_5;
+	.formp {
+		width: 100%;
+		max-width: 1200px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 50px;
+		padding: 45px 0px;
+		
+	}
+}
+
+.formp1 {
+	figure {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}}
+

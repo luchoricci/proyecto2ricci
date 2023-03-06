@@ -1,0 +1,47 @@
+.tituloform {
+	text-decoration: none;
+	font-family: $font-family_1;
+	text-align: center;
+	color: $color_1;
+}
+
+.formulariocontacto {
+	background-color: $background-color_5;
+	width: 450px;
+	margin: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+	border-radius: 7px;
+
+	input {
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 7px;
+		box-sizing: border-box;
+		font-size: 18px;
+		font-family: $font-family_1;
+		border: none;
+	}
+
+	textarea {
+		min-height: 100px;
+		max-height: 300px;
+		max-width: 100%;
+	}
+
+	.boton {
+		background: #00ff11;
+		padding: 20px;
+	}
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-family: $font-family_1;
+	border: none;
+}
